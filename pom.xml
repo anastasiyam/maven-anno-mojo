@@ -198,11 +198,12 @@
         </profile>
     </profiles>
     <distributionManagement>
-    <repository>
+    <snapshotRepository>
         <id>Latitude_E5540</id>
-        <name>Latitude_E5540-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </repository>
+        <name>Latitude_E5540-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
 </distributionManagement>
+
 
 </project>
