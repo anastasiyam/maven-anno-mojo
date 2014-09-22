@@ -197,4 +197,12 @@
             </build>
         </profile>
     </profiles>
+    <distributionManagement>
+    <repository>
+        <id>Latitude_E5540</id>
+        <name>Latitude_E5540-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
+
 </project>
